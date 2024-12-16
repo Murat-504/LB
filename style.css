@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+body{
+    margin: auto;
+    width: 1400px;         /* Занимает всю ширину экрана */
+    max-width: 100%;
+}
+p{
+    font-size: 16px;
+}
+a{
+    font-size: 16px;
+    text-decoration: none;
+    color: inherit;
+}
+header{
+    background: rgba(231, 209, 209, 1);
+}
+.header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 15px 30px;
+}
+.nav{
+    display: flex;
+    list-style-type: none;
+    margin-left: 70px;
+}
+.nav li{
+    margin-left: 37px;
+}
+.nav li:hover{
+    color: aliceblue;
+}
+.login_header{
+    display: flex;
+}
+.login_header a{
+    margin-right: 8px;
+}
+.login_header a:hover{
+    color: aliceblue;
+}
+.banner h1{
+    position: absolute;
+    font-size: 74px;
+    font-style:oblique;
+    display: block;
+    margin: 74px 175px;
+    width: 968px;
+    text-align: center
+}
+.category{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 163px;
+    margin-bottom: 143px;
+}
+.category_red{
+    background-color: rgba(173, 0, 0, 1);
+    width: 250px;
+    height: 70px;
+    border-radius: 20px;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+}
+.category_red img{
+    width: 29px;
+    height: 29px;
+    margin: 0px 27px 0 27px;
+}
+.card{
+    background: rgba(255, 210, 210, 1);
+    height: 726px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.card_1{
+    background: rgb(255, 255, 255);
+    width: 428px;
+    height: 584px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.profil_logo{
+    width: 250px;
+    height: 250px;
+    border-radius: 200px;
+    background-color: antiquewhite;
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+.stars{
+    width: 25px;
+    height: 27px;
+}
+.lol{
+    font-size: 10px;
+    text-align: end;
+}
+footer{
+    margin-top: 172px;
+}
+.footer_top{
+    background: rgba(224, 224, 224, 1);
+}
+.footer_top1{
+    display: flex;
+    justify-content: space-between;
+}
+.footer_bottom{
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 60px;
+    background: rgba(235, 152, 152, 1);
+}
+.footer_bottom a{
+    font-size: 20px;
+    margin: 0 30px;
+}
